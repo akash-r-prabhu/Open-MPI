@@ -5,3 +5,7 @@
 ## Non Blocking receive
 - Start receive operation
 - Return Before data copied into user buffer
+
+
+## Collective communication
+- Ability to broadcast

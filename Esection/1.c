@@ -49,6 +49,10 @@ int main(int argc, char **argv)
                 printf("Recieved number between 0 and 5 \n ");
             }
         }
+        if (rank == 3)
+        {
+            printf("Akash R Prabhu");
+        }
         if (rank == size - 1)
         {
             next = 0;
@@ -69,3 +73,7 @@ int main(int argc, char **argv)
     }
     MPI_Finalize();
 }
+
+// to run
+//  mpicc 1.c
+// mpirun --oversubscribe -np 4 ./a.out |sort
